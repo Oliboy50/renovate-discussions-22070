@@ -9,7 +9,8 @@
                 "^aws-",
                 "^serde_dynamo$"
             ],
-            "groupName": "aws"
+            "groupName": "AWS Rust libs",
+            "groupSlug": "aws"
         }
     ],
     "regexManagers": [
