@@ -11,17 +11,5 @@
             ],
             "groupName": "aws"
         }
-    ],
-    "regexManagers": [
-        {
-            "fileMatch": ["^Cargo\\.toml$"],
-            "matchStrings": [
-                "\"aws-sdk-dynamodb\\+(?<currentValue>\\d+_\\d+)\""
-            ],
-            "versioningTemplate": "loose",
-            "autoReplaceStringTemplate": "\"aws-sdk-dynamodb\\+{{{newMajor}}}_{{{newMinor}}}\"",
-            "depNameTemplate": "aws-sdk-dynamodb",
-            "datasourceTemplate": "crate"
-        }
     ]
 }
