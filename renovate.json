@@ -16,10 +16,10 @@
         {
             "fileMatch": ["^Cargo\\.toml$"],
             "matchStrings": [
-                "\"aws-sdk-dynamodb\\+(?<currentValue>\\d+_\\d+)\""
+                "\"aws-sdk-dynamodb\\+0_(?<currentValue>\\d+)\""
             ],
             "versioningTemplate": "loose",
-            "autoReplaceStringTemplate": "\"aws-sdk-dynamodb\\+{{{newMajor}}}_{{{newMinor}}}\"",
+            "extractVersionTemplate": "^0\\.(?<version>\\d+)\\.\\d+$",
             "depNameTemplate": "aws-sdk-dynamodb",
             "datasourceTemplate": "crate"
         }
