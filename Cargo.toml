@@ -4,6 +4,6 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-serde_dynamo = { version = "=4.2.0", features = ["aws-sdk-dynamodb+0_25"] }
-aws-config = { version = "=0.55.0" }
-aws-sdk-dynamodb = { version = "=0.25.1" }
+serde_dynamo = { version = "=4.2.2", features = ["aws-sdk-dynamodb+0_25"] }
+aws-config = { version = "=0.55.2" }
+aws-sdk-dynamodb = { version = "=0.27.0" }
